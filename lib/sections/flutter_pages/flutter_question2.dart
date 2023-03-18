@@ -20,7 +20,8 @@ class SecondQuestion extends StatelessWidget {
               SizedBox(height: 10),
               Center(
                 child: Text(
-                  'Do you want to grow in your career',
+                  'Which type of application can be created by flutter',
+                  textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 20,
                   ),
@@ -39,7 +40,7 @@ class SecondQuestion extends StatelessWidget {
                       ),
                     );
                   },
-                  child: Text('Yes'),
+                  child: Text('Desktop Application'),
                 ),
               ),
               SizedBox(height: 10),
@@ -55,7 +56,7 @@ class SecondQuestion extends StatelessWidget {
                       ),
                     );
                   },
-                  child: Text('Maybe'),
+                  child: Text('Mobile Application'),
                 ),
               ),
               SizedBox(height: 10),
@@ -71,7 +72,7 @@ class SecondQuestion extends StatelessWidget {
                       ),
                     );
                   },
-                  child: Text('No'),
+                  child: Text('All of the above'),
                 ),
               ),
               Spacer(),

@@ -25,7 +25,7 @@ class _FifthQuestionState extends State<FifthQuestion> {
               SizedBox(height: 10),
               Center(
                 child: Text(
-                  'Is Dart Simple to Understand',
+                  'is dart language object oriented ',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 20,

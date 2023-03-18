@@ -16,10 +16,10 @@ class FirstQuestion extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 20.0),
           child: Column(
             children: [
-              SizedBox(height: 10),
+              SizedBox(height: 30),
               Center(
                 child: Text(
-                  'Do you love animals',
+                  'Which Company created flutter',
                   style: TextStyle(
                     fontSize: 20,
                   ),
@@ -38,7 +38,7 @@ class FirstQuestion extends StatelessWidget {
                       ),
                     );
                   },
-                  child: Text('Yes'),
+                  child: Text('Microsoft'),
                 ),
               ),
               SizedBox(height: 10),
@@ -54,7 +54,7 @@ class FirstQuestion extends StatelessWidget {
                       ),
                     );
                   },
-                  child: Text('Maybe'),
+                  child: Text('Google'),
                 ),
               ),
               SizedBox(height: 10),
@@ -70,7 +70,7 @@ class FirstQuestion extends StatelessWidget {
                       ),
                     );
                   },
-                  child: Text('No'),
+                  child: Text('Facebook'),
                 ),
               ),
               Spacer(),

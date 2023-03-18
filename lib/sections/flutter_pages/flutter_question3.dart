@@ -20,10 +20,11 @@ class _ThirdQuestionState extends State<ThirdQuestion> {
           padding: const EdgeInsets.symmetric(horizontal: 20.0),
           child: Column(
             children: [
-              SizedBox(height: 10),
+              SizedBox(height: 30),
               Center(
                 child: Text(
-                  'Is Flutter a FrameWork',
+                  'Is Flutter a FrameWork of which language',
+                  textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 20,
                   ),
@@ -40,7 +41,7 @@ class _ThirdQuestionState extends State<ThirdQuestion> {
                         MaterialPageRoute(
                             builder: (context) => FourthQuestion()));
                   },
-                  child: Text('Yes'),
+                  child: Text('Python'),
                 ),
               ),
               SizedBox(height: 10),
@@ -54,7 +55,7 @@ class _ThirdQuestionState extends State<ThirdQuestion> {
                         MaterialPageRoute(
                             builder: (context) => FourthQuestion()));
                   },
-                  child: Text('Maybe'),
+                  child: Text('Golang'),
                 ),
               ),
               SizedBox(height: 10),
@@ -68,7 +69,7 @@ class _ThirdQuestionState extends State<ThirdQuestion> {
                         MaterialPageRoute(
                             builder: (context) => FourthQuestion()));
                   },
-                  child: Text('No'),
+                  child: Text('Dart'),
                 ),
               ),
               Spacer(),
