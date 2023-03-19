@@ -15,7 +15,9 @@ class HtmlQuestion1 extends StatelessWidget {
         child: SafeArea(
           child: Column(
             children: [
-              SizedBox(height: 30),
+              SizedBox(height: 10),
+              Text('Question 1/5'),
+              SizedBox(height: 20),
               Center(
                 child: Text(
                   'Which of this is a valid html tag',

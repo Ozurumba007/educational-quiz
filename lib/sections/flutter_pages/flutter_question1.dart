@@ -16,7 +16,9 @@ class FirstQuestion extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 20.0),
           child: Column(
             children: [
-              SizedBox(height: 30),
+              SizedBox(height: 10),
+              Text('Question 1/5'),
+              SizedBox(height: 20),
               Center(
                 child: Text(
                   'Which Company created flutter',

@@ -18,6 +18,8 @@ class SecondQuestion extends StatelessWidget {
           child: Column(
             children: [
               SizedBox(height: 10),
+              Text('Question 2/5'),
+              SizedBox(height: 20),
               Center(
                 child: Text(
                   'Which type of application can be created by flutter',

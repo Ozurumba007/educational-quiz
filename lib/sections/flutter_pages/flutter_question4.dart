@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_const_constructors
 
+import 'package:educational_app/sections/flutter_pages/flutter_question3.dart';
 import 'package:educational_app/sections/flutter_pages/flutter_question5.dart';
 import 'package:flutter/material.dart';
 
@@ -22,6 +23,8 @@ class _FourthQuestionState extends State<FourthQuestion> {
           child: Column(
             children: [
               SizedBox(height: 10),
+              Text('Question 4/5'),
+              SizedBox(height: 20),
               Center(
                 child: Text(
                   'Is everything a widget in Flutter',
@@ -88,7 +91,7 @@ class _FourthQuestionState extends State<FourthQuestion> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => FourthQuestion(),
+                            builder: (context) => ThirdQuestion(),
                           ));
                     },
                     child: Text('Back'),

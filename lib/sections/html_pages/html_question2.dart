@@ -15,7 +15,9 @@ class HtmlQuestion2 extends StatelessWidget {
         child: SafeArea(
           child: Column(
             children: [
-              SizedBox(height: 30),
+              SizedBox(height: 10),
+              Text('Question 2/5'),
+              SizedBox(height: 20),
               Center(
                 child: Text(
                   'Which of this tag is found in the head section of a html page',

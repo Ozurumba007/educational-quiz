@@ -23,6 +23,8 @@ class _FifthQuestionState extends State<FifthQuestion> {
           child: Column(
             children: [
               SizedBox(height: 10),
+              Text('Question 5/5'),
+              SizedBox(height: 20),
               Center(
                 child: Text(
                   'is dart language object oriented ',

@@ -20,7 +20,9 @@ class _ThirdQuestionState extends State<ThirdQuestion> {
           padding: const EdgeInsets.symmetric(horizontal: 20.0),
           child: Column(
             children: [
-              SizedBox(height: 30),
+              SizedBox(height: 10),
+              Text('Question 3/5'),
+              SizedBox(height: 20),
               Center(
                 child: Text(
                   'Is Flutter a FrameWork of which language',
