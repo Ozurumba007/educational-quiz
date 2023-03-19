@@ -3,6 +3,7 @@
 import 'package:educational_app/sections/flutter_pages/flutter_question3.dart';
 import 'package:educational_app/sections/flutter_pages/flutter_question5.dart';
 import 'package:flutter/material.dart';
+import 'package:hive/hive.dart';
 
 class FourthQuestion extends StatefulWidget {
   FourthQuestion({Key? key}) : super(key: key);

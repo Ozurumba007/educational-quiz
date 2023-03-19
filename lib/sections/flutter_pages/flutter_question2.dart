@@ -3,10 +3,16 @@
 import 'package:educational_app/sections/flutter_pages/flutter_question1.dart';
 import 'package:educational_app/sections/flutter_pages/flutter_question3.dart';
 import 'package:flutter/material.dart';
+import 'package:hive/hive.dart';
 
-class SecondQuestion extends StatelessWidget {
+class SecondQuestion extends StatefulWidget {
   const SecondQuestion({Key? key}) : super(key: key);
 
+  @override
+  State<SecondQuestion> createState() => _SecondQuestionState();
+}
+
+class _SecondQuestionState extends State<SecondQuestion> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

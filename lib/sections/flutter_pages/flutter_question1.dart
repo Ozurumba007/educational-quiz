@@ -4,16 +4,24 @@ import 'package:educational_app/sections/flutter_pages/flutter_question2.dart';
 import 'package:educational_app/home_page.dart';
 import 'package:educational_app/sections/section_page.dart';
 import 'package:flutter/material.dart';
+import 'package:hive/hive.dart';
 
-class FirstQuestion extends StatelessWidget {
-  const FirstQuestion({Key? key}) : super(key: key);
+class FirstQuestion extends StatefulWidget {
+  FirstQuestion({Key? key}) : super(key: key);
 
+  @override
+  State<FirstQuestion> createState() => _FirstQuestionState();
+}
+
+class _FirstQuestionState extends State<FirstQuestion> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
         child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 20.0),
+          padding: const EdgeInsets.symmetric(
+            horizontal: 20.0,
+          ),
           child: Column(
             children: [
               SizedBox(height: 10),
